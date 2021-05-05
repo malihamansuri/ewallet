@@ -1,0 +1,49 @@
+15:29 02-11-202015:30 02-11-2020Practical Tasks*
+---------------------------------------------------
+_Payment System_
+
+*Create Users :*----> Admin, Employee, End User A, End User B, Merchant
+
+End User KYC Document uploading and verification
+
+Add role base access system permission feature for admin can give role to any other
+
+Store all activity log into DB (login, transaction, other activity, etc)
+
+*End Users:*
+ 
+Every End Users have Wallet. Wallet means it likes PayTm Wallet, it use for Add Money, Transfer Money from wallet to wallet and Pay Money to Merchant
+
+Wallet Money Transaction Use cases:
+
+*Case 1:* If User is KYC Verified than he will allowed to transfer money from own wallet to another End User's wallet along with add money and pay money.
+
+*Case 2:* If User is not KYC Verified than he will only allowed to Add money and pay money to merchant. 
+
+Store Wallet Transaction Log same like bank passbook format (datetime, paid for, debit/credit amt, closing amt, etc)
+
+End user can request money from other users
+
+End user can approve/disapprove money request
+
+*Employee:*
+
+Employee can switch to user/merchant login with single button.
+
+Employee can only view user's information, transaction log details, get complaints 
+
+Employee can blocked/unblocked users
+
+*Merchant:*
+
+Merchant can get paid from end users
+
+Merchant can see transaction log, own details
+
+*Admin:*
+
+Admin can switch to user/merchant/employee with single button to view/update information related to transaction, personal, etc
+
+Admin can give extra permission or update permission for user/merchant/employee
+
+Admin can blocked/unblocked users
